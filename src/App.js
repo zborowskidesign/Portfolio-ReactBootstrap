@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.scss';
-import{BrowserRouter,Route} from 'react-router-dom';
+import{HashRouter,Route} from 'react-router-dom';
 import Page from './layout-elements/Page';
 import Navigation from './layout-elements/Navigation';
 
@@ -10,7 +10,7 @@ class App extends Component {
   state = {  }
   render() { 
     return ( 
-     <BrowserRouter> 
+     <HashRouter> 
      <div className="App">
        <main>
          <aside>
@@ -21,7 +21,7 @@ class App extends Component {
          </section>
        </main>
      </div>
-     </BrowserRouter>
+     </HashRouter>
      );
   }
 }
