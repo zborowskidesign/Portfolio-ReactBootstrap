@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-ReactBootstrap/static/css/main.31f92955.chunk.css",
-    "main.js": "/Portfolio-ReactBootstrap/static/js/main.9b2de462.chunk.js",
-    "main.js.map": "/Portfolio-ReactBootstrap/static/js/main.9b2de462.chunk.js.map",
+    "main.css": "/Portfolio-ReactBootstrap/static/css/main.85586942.chunk.css",
+    "main.js": "/Portfolio-ReactBootstrap/static/js/main.f410bea9.chunk.js",
+    "main.js.map": "/Portfolio-ReactBootstrap/static/js/main.f410bea9.chunk.js.map",
     "runtime-main.js": "/Portfolio-ReactBootstrap/static/js/runtime-main.94cba378.js",
     "runtime-main.js.map": "/Portfolio-ReactBootstrap/static/js/runtime-main.94cba378.js.map",
     "static/css/2.829c9cb5.chunk.css": "/Portfolio-ReactBootstrap/static/css/2.829c9cb5.chunk.css",
     "static/js/2.c9a4235b.chunk.js": "/Portfolio-ReactBootstrap/static/js/2.c9a4235b.chunk.js",
     "static/js/2.c9a4235b.chunk.js.map": "/Portfolio-ReactBootstrap/static/js/2.c9a4235b.chunk.js.map",
     "index.html": "/Portfolio-ReactBootstrap/index.html",
-    "precache-manifest.4b97a5e1516ec7cfb3a11ac5c459e943.js": "/Portfolio-ReactBootstrap/precache-manifest.4b97a5e1516ec7cfb3a11ac5c459e943.js",
+    "precache-manifest.723a5715cddbd810b5fa6cb29876d2ef.js": "/Portfolio-ReactBootstrap/precache-manifest.723a5715cddbd810b5fa6cb29876d2ef.js",
     "service-worker.js": "/Portfolio-ReactBootstrap/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/Portfolio-ReactBootstrap/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.31f92955.chunk.css.map": "/Portfolio-ReactBootstrap/static/css/main.31f92955.chunk.css.map",
+    "static/css/main.85586942.chunk.css.map": "/Portfolio-ReactBootstrap/static/css/main.85586942.chunk.css.map",
     "static/js/2.c9a4235b.chunk.js.LICENSE.txt": "/Portfolio-ReactBootstrap/static/js/2.c9a4235b.chunk.js.LICENSE.txt",
     "static/media/corner-page.png": "/Portfolio-ReactBootstrap/static/media/corner-page.e43c16d3.png",
     "static/media/dotes.gif": "/Portfolio-ReactBootstrap/static/media/dotes.b37fe2d6.gif",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.94cba378.js",
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.c9a4235b.chunk.js",
-    "static/css/main.31f92955.chunk.css",
-    "static/js/main.9b2de462.chunk.js"
+    "static/css/main.85586942.chunk.css",
+    "static/js/main.f410bea9.chunk.js"
   ]
 }
