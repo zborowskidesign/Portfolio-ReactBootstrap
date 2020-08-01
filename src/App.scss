@@ -473,10 +473,10 @@ input[type="reset"]:hover{
   }
 
   /*Kontakt*/
-  .contact-text-title
-  {
-    margin-top: 1rem;
-  }
+  // .contact-text-title
+  // {
+
+  // }
 
   .corner-bottom
   {
@@ -490,6 +490,11 @@ input[type="reset"]:hover{
   #message
   {
     width: 70%;
+  }
+
+  #name 
+  {
+    margin-top: 0 !important;
   }
  
 }
