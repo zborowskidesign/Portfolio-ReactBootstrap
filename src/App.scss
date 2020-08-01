@@ -261,12 +261,12 @@ input[type="submit"],input[type="reset"]
 }
 input[type="submit"]:hover{
   background-color: rgb(255, 216, 41);
-  color: $white;
+  color: #fff;
   cursor: pointer;
 }
 input[type="reset"]:hover{
   background-color: rgb(255, 216, 41);
-  color: $white;
+  color: #fff;
   cursor: pointer;
 }
 
