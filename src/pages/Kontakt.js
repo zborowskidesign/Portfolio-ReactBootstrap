@@ -38,7 +38,7 @@ class Kontakt extends React.Component {
       <Container style={{clear:'both'}}>
        <img className="corner-top"src={spot}></img>
         <Row className="text-center">
-        <Col sm={12} style={{zIndex:"1"}}>
+        <Col sm={12} style={{zIndex:"-1"}}>
         <h1 className="contact-text-title">N<span className="circle"></span>apisz do mnie</h1>
        <form  onSubmit={this.handleSend} action={this.state.value.length < 1 ? "" : "mailto:michalzborowski@interia.pl"} method= {this.state.value.length < 1 ? "" : "post"} enctype="text/plain">
        <input type="text" name="Imie: " id="name" placeholder="Imie"></input>
