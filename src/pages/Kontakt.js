@@ -1,5 +1,8 @@
 import React from 'react';
 import {Prompt} from 'react-router-dom';
+import { Container, Col, Row } from 'react-bootstrap';
+import cornerpage from '../images/corner-page.png';
+import spot from '../images/spot.png';
 
 class Kontakt extends React.Component {
   state = {  
@@ -32,7 +35,11 @@ class Kontakt extends React.Component {
   render() { 
     return ( 
       <>
-       <h1><strong>Napisz</strong> do mnie</h1>
+      <Container style={{clear:'both'}}>
+       <img className="corner-top"src={spot}></img>
+        <Row className="text-center">
+        <Col sm={12} style={{zIndex:"1"}}>
+        <h1 className="contact-text-title">N<span className="circle"></span>apisz do mnie</h1>
        <form  onSubmit={this.handleSend} action={this.state.value.length < 1 ? "" : "mailto:michalzborowski@interia.pl"} method= {this.state.value.length < 1 ? "" : "post"} enctype="text/plain">
        <input type="text" name="Imie: " id="name" placeholder="Imie"></input>
        <br/>
@@ -47,7 +54,12 @@ class Kontakt extends React.Component {
        when={this.state.value.length > 0}
        message="Czy na pewno chcesz opuśić podstronę w trakcie wypełniania formularza?"
        />
-       </>
+       </Col>
+       </Row>
+      </Container>
+     {/* <img className="corner-bottom"src={corner}></img> */}
+     <img className="corner-bottom"src={cornerpage}></img>
+      </>
      );
   }
 }

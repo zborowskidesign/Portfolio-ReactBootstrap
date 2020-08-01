@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.scss';
-import{HashRouter,Route} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+import {HashRouter,Route} from 'react-router-dom';
 import Page from './layout-elements/Page';
 import Navigation from './layout-elements/Navigation';
 

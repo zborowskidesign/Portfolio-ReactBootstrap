@@ -1,14 +1,15 @@
 import React from 'react';
 import {Route} from 'react-router-dom';
 import Home from '../pages/Home';
-import Przelicznik from '../pages/Przelicznik';
+import Projekty from '../pages/Projekty';
 import Kontakt from '../pages/Kontakt';
+
 
 const Page = () => {
     return ( 
         <>     
         <Route path="/" exact component={Home}/>
-        <Route path="/przelicznik" component={Przelicznik}/>
+        <Route path="/projekty" component={Projekty}/>
         <Route path="/kontakt" component={Kontakt}/>     
         </>
      );
