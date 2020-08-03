@@ -293,6 +293,14 @@ input[type="reset"]:hover{
 /*Responsive*/
 
 
+@media (max-width: 320px)
+{
+  li 
+  {
+    margin-left: 2rem;
+  }
+}
+
 @media only screen and (max-width: 480px) {
 
  /*Home*/
