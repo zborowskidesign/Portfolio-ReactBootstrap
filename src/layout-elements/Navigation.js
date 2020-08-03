@@ -5,15 +5,15 @@ import dotesimg from '../images/dotes.gif';
 const Navigation = () => {
     return ( 
         <>
-         <nav style={{zIndex:"2"}}>
+         <nav>
             <ul>
-            <li>
+            <li style={{zIndex:"2"}}>
                 <NavLink to= "/">O mnie</NavLink>
             </li>
-            <li>
+            <li style={{zIndex:"2"}}>
             <NavLink to="projekty">Projekty</NavLink>
             </li>
-            <li>
+            <li style={{zIndex:"2"}}>
                 <NavLink to="kontakt">Kontakt</NavLink>
             </li>
             </ul>
